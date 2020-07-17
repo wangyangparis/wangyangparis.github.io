@@ -36,11 +36,20 @@ hess =∂2/𝐿∂𝑥2=𝑝(1−𝑝)(𝛽+𝑦−𝛽𝑦)
 - Time varying data visualization
 <p align="center"><img src="" width="550" ></img></p>
 
-# [ 5: Scala Spark ML Project](https://github.com/wangyangparis/spark_project_kickstarter_2019_2020) 
-- scala RDD wordcount, text classification
+# [ Project: device-geolocalisation](https://wangyangparis.github.io/IoT-geolocation/) 
+- A company (Sigfox) that produces connected device needs to locate the position of their device. 
+- Prediction is based on the message reception information.
+
+# [ Project: Scala Spark ML Project](https://github.com/wangyangparis/spark_project_kickstarter_2019_2020) 
+- Kickstarter campaigns - text classification
+- Scala RDD 
 - create a ML Pipeline of 10 stages
 - hyperparamater tuning with grid search
 <p align="center"><img src="" width="550" ></img></p>
+
+# [ Web Game Wikipedia-Travel-to-Philosophie ](https://wangyangparis.github.io/WebGame-Wikipedia-Travel-to-Philosophie/
+) 
+- Flask, html, python, CSS
 
 @created 2020/7/17 
 ==================Under construction==================
@@ -54,12 +63,11 @@ hess =∂2/𝐿∂𝑥2=𝑝(1−𝑝)(𝛽+𝑦−𝛽𝑦)
 <p align="center"><img src="" width="550" ></img></p>
 
 
-# [ 3: Data Engineering Project GDELT databae request](https://wangyangparis.github.io/AirbusAnomalyDetectionProject/) 
+# [ Data Engineering Project GDELT databae request](https://wangyangparis.github.io/AirbusAnomalyDetectionProject/) 
 - MongoDB, Spark, AWS S3, EC2
 - NoSQL
 
 
 
-# [ 5: device-geolocalisation](https://wangyangparis.github.io/AirbusAnomalyDetectionProject/) 
-- IOT
+
 
