@@ -20,7 +20,7 @@ and hessien as:
 hess =∂2/𝐿∂𝑥2=𝑝(1−𝑝)(𝛽+𝑦−𝛽𝑦)
 
 <p align="center">
-  <img src="https://www.statworx.com/wp-content/uploads/machine.png"  width="450" height="450"/>
+  <img src="https://www.statworx.com/wp-content/uploads/machine.png"  width="250" />
 </p>
 
 
@@ -29,11 +29,17 @@ hess =∂2/𝐿∂𝑥2=𝑝(1−𝑝)(𝛽+𝑦−𝛽𝑦)
 - Frequency Domain - Fast Fourier Transformation
 - OneClassSVM / Isolation Forest /Local Outlier Factor + PCA/Kernel PCA
 - VAE latent space visualization
-<p align="center"><img src="https://raw.githubusercontent.com/wangyangparis/AirbusAnomalyDetectionProject/master/Images/spectrum.png" width="550" ></img></p>
+<p align="center"><img src="https://raw.githubusercontent.com/wangyangparis/AirbusAnomalyDetectionProject/master/Images/spectrum.png" width="350" ></img></p>
 
 # [Project 3: Paris Wifi Data Visualization](https://wangyangparis.github.io/ParisWifiDataviz/) 
 - Spotly/Dash
 - Time varying data visualization
+<p align="center"><img src="" width="550" ></img></p>
+
+# [ 5: Scala Spark ML Project](https://github.com/wangyangparis/spark_project_kickstarter_2019_2020) 
+- scala RDD wordcount, text classification
+- create a ML Pipeline of 10 stages
+- hyperparamater tuning with grid search
 <p align="center"><img src="" width="550" ></img></p>
 
 @created 2020/7/17 
@@ -47,14 +53,12 @@ hess =∂2/𝐿∂𝑥2=𝑝(1−𝑝)(𝛽+𝑦−𝛽𝑦)
 
 <p align="center"><img src="" width="550" ></img></p>
 
-# [ 5: Paris Wifi Data Visualization](https://wangyangparis.github.io/AirbusAnomalyDetectionProject/) 
-- Spotly/Dash
--
-<p align="center"><img src="" width="550" ></img></p>
 
 # [ 3: Data Engineering Project GDELT databae request](https://wangyangparis.github.io/AirbusAnomalyDetectionProject/) 
 - MongoDB, Spark, AWS S3, EC2
 - NoSQL
+
+
 
 # [ 5: device-geolocalisation](https://wangyangparis.github.io/AirbusAnomalyDetectionProject/) 
 - IOT
