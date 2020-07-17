@@ -4,7 +4,7 @@ title: All Projects
 excerpt: "A List of Projects"
 ---
 
-
+<center>
 # Yang WANG 
 Data science portfolio
 
@@ -29,3 +29,4 @@ hess =∂2/𝐿∂𝑥2=𝑝(1−𝑝)(𝛽+𝑦−𝛽𝑦)
 - VAE latent space visualization
 <p align="center"><img src="https://raw.githubusercontent.com/wangyangparis/AirbusAnomalyDetectionProject/master/Images/spectrum.png" width="550" ></img></p>
 
+</center>
