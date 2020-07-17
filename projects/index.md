@@ -4,15 +4,17 @@ title: All Projects
 excerpt: "A List of Projects"
 ---
 
-<center>
+
 # Yang WANG 
 Data science portfolio
 
 # [Project 1: Fusion of algorithms for face recognition](https://wangyangparis.github.io/DataChallenge2020/) 
+* Data Challenge IDEMIA-MS Big Data (ranked 1st among 57 data scientists)
 * build a fusion of algorithms in order to construct the best suited solution for comparison of a pair of images
 * total 9,800,713 training observations. There are in total 3,768,311 test observations.
 * the performance criterion is TPR for the value of FPR = 0.0001
-* In order to penalise False Positive, I put a penalty Beta on the FP, I can calculate the gradient as:
+* LightGBoost
+* Custom Loss Function - In order to penalise False Positive, I put a penalty Beta on the FP, calculating the gradient as:
 grad =∂𝐿/∂𝑥=∂𝐿/∂𝑝*∂𝑝/∂𝑥=𝑝(𝛽+𝑦−𝛽𝑦)−𝑦 ,
 and hessien as:
 hess =∂2/𝐿∂𝑥2=𝑝(1−𝑝)(𝛽+𝑦−𝛽𝑦)
@@ -29,4 +31,18 @@ hess =∂2/𝐿∂𝑥2=𝑝(1−𝑝)(𝛽+𝑦−𝛽𝑦)
 - VAE latent space visualization
 <p align="center"><img src="https://raw.githubusercontent.com/wangyangparis/AirbusAnomalyDetectionProject/master/Images/spectrum.png" width="550" ></img></p>
 
-</center>
+# [Project 3: Paris Wifi Data Visualization](https://wangyangparis.github.io/AirbusAnomalyDetectionProject/) 
+- Spotly/Dash
+-
+<p align="center"><img src="https://raw.githubusercontent.com/wangyangparis/AirbusAnomalyDetectionProject/master/Images/spectrum.png" width="550" ></img></p>
+
+# [Project 3: IBM Text Clustering](https://wangyangparis.github.io/AirbusAnomalyDetectionProject/) 
+- Spotly/Dash
+-
+<p align="center"><img src="https://raw.githubusercontent.com/wangyangparis/AirbusAnomalyDetectionProject/master/Images/spectrum.png" width="550" ></img></p>
+
+# [ 3: Paris Wifi Data Visualization](https://wangyangparis.github.io/AirbusAnomalyDetectionProject/) 
+- Spotly/Dash
+-
+<p align="center"><img src="https://raw.githubusercontent.com/wangyangparis/AirbusAnomalyDetectionProject/master/Images/spectrum.png" width="550" ></img></p>
+
