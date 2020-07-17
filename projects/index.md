@@ -21,8 +21,6 @@ hess =∂2/𝐿∂𝑥2=𝑝(1−𝑝)(𝛽+𝑦−𝛽𝑦)
   <img src="https://www.statworx.com/wp-content/uploads/machine.png"  width="450" height="450"/>
 </p>
 
-![](https://www.statworx.com/wp-content/uploads/machine.png)
-
 
 # [Project 2: Airbus Anomaly Detection Project](https://wangyangparis.github.io/AirbusAnomalyDetectionProject/) 
 - interpolated data
