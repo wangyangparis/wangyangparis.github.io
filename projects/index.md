@@ -23,12 +23,8 @@ hess =∂2/𝐿∂𝑥2=𝑝(1−𝑝)(𝛽+𝑦−𝛽𝑦)
 
 
 # [Project 2: Airbus Anomaly Detection Project](https://wangyangparis.github.io/AirbusAnomalyDetectionProject/) 
-- interpolated data
-- Kernel PCA
-- OneClassSVM
-- Isolation Forest 
-- LOF + PCA 
-- VAE data+der1+der2
-- LOF - 1st order derivative and 2nd order derivative 
-
-![](/images/matrix_results.png)
+- Interpolation - Spline
+- Frequency Domain - Fast Fourier Transformation
+- OneClassSVM / Isolation Forest /Local Outlier Factor + PCA/Kernel PCA
+- VAE latent space visualization
+<p align="center"><img src="https://github.com/wangyangparis/Airbus-Anomaly-Detection-Project/blob/master/Images/FFT.png" width="450" ></img></p>
