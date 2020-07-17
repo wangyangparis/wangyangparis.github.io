@@ -1,0 +1,16 @@
+# Site navigation links
+
+- title: Home
+  url: /
+
+- title: ML
+  url: /machinelearning/
+
+- title: Stats
+  url: /stats/
+
+- title: Projects
+  url: /projects/
+
+- title: About
+  url: /about/
