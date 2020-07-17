@@ -5,8 +5,8 @@ excerpt: "A List of Projects"
 ---
 
 
-# Ken_Portfolio
-Example data science portfolio
+# Yang WANG 
+Data science portfolio
 
 # [Project 1: Fusion of algorithms for face recognition](https://wangyangparis.github.io/Data-Challenge-2020/) 
 * build a fusion of algorithms in order to construct the best suited solution for comparison of a pair of images
@@ -16,6 +16,7 @@ Example data science portfolio
 grad =∂𝐿/∂𝑥=∂𝐿/∂𝑝*∂𝑝/∂𝑥=𝑝(𝛽+𝑦−𝛽𝑦)−𝑦 ,
 and hessien as:
 hess =∂2/𝐿∂𝑥2=𝑝(1−𝑝)(𝛽+𝑦−𝛽𝑦)
+
 <p align="center">
   <img src="https://www.statworx.com/wp-content/uploads/machine.png"  width="450" height="450"/>
 </p>
@@ -23,9 +24,13 @@ hess =∂2/𝐿∂𝑥2=𝑝(1−𝑝)(𝛽+𝑦−𝛽𝑦)
 ![](https://www.statworx.com/wp-content/uploads/machine.png)
 
 
-# [Project 2: Ball Image Classifier](https://github.com/PlayingNumbers/ball_image_classifier) 
-For this example project I built a ball classifier to identify balls from different sports. This could be useful for someone who is new to sports from a certain country. They could take a picture of a ball and an app could serve them some information about the history and rules of the game. This is the underlying model for building something with those capabilities. 
-
-I was able to get the model to predict the sport of the ball with 94% accuracy after minimal tuning. For most of the cases this would meet the need of an end user of the app. To get these results I used transfer learning on a CNN trained on resnet34. This created time efficiencies and solid results. 
+# [Project 2: Airbus Anomaly Detection Project](https://wangyangparis.github.io/AirbusAnomalyDetectionProject/) 
+- interpolated data
+- Kernel PCA
+- OneClassSVM
+- Isolation Forest 
+- LOF + PCA 
+- VAE data+der1+der2
+- LOF - 1st order derivative and 2nd order derivative 
 
 ![](/images/matrix_results.png)
