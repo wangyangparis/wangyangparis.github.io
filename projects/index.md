@@ -29,26 +29,27 @@ hess =∂2/𝐿∂𝑥2=𝑝(1−𝑝)(𝛽+𝑦−𝛽𝑦)
 - Frequency Domain - Fast Fourier Transformation
 - OneClassSVM / Isolation Forest /Local Outlier Factor + PCA/Kernel PCA
 - VAE latent space visualization
-<p align="center"><img src="https://raw.githubusercontent.com/wangyangparis/AirbusAnomalyDetectionProject/master/Images/spectrum.png" width="350" ></img></p>
+<p align="left"><img src="https://raw.githubusercontent.com/wangyangparis/AirbusAnomalyDetectionProject/master/Images/spectrum.png" width="350" ></img></p>
 
 # [Project 3: Paris Wifi Data Visualization](https://wangyangparis.github.io/ParisWifiDataviz/) 
 - Spotly/Dash
 - Time varying data visualization
-<p align="center"><img src="" width="550" ></img></p>
+<p align="left"><img src="" width="550" ></img></p>
 
 # [ Project: device-geolocalisation](https://wangyangparis.github.io/IoT-geolocation/) 
 - A company (Sigfox) that produces connected device needs to locate the position of their device. 
 - Prediction is based on the message reception information.
+<p align="left"><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ffr.wikipedia.org%2Fwiki%2FSigfox&psig=AOvVaw24F_MfqMEfWMOA9-6Yyt7H&ust=1595095559357000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPCCu5bw1OoCFQAAAAAdAAAAABAD" width="250" ></img></p>
+
 
 # [ Project: Scala Spark ML Project](https://github.com/wangyangparis/spark_project_kickstarter_2019_2020) 
 - Kickstarter campaigns - text classification
 - Scala RDD 
 - create a ML Pipeline of 10 stages
 - hyperparamater tuning with grid search
-<p align="center"><img src="" width="550" ></img></p>
+<p align="left"><img src="https://upload.wikimedia.org/wikipedia/commons/f/f3/Apache_Spark_logo.svg" width="200" ></img></p>
 
-# [ Web Game Wikipedia-Travel-to-Philosophie ](https://wangyangparis.github.io/WebGame-Wikipedia-Travel-to-Philosophie/
-) 
+# [ Web Game Wikipedia-Travel-to-Philosophie](https://wangyangparis.github.io/WebGame-Wikipedia-Travel-to-Philosophie) 
 - Flask, html, python, CSS
 
 @created 2020/7/17 
