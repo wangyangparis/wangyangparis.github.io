@@ -8,7 +8,7 @@ excerpt: "A List of Projects"
 # Yang WANG 
 Data science portfolio
 
-# [Project 1: Fusion of algorithms for face recognition](https://wangyangparis.github.io/Data-Challenge-2020/) 
+# [Project 1: Fusion of algorithms for face recognition](https://wangyangparis.github.io/DataChallenge2020/) 
 * build a fusion of algorithms in order to construct the best suited solution for comparison of a pair of images
 * total 9,800,713 training observations. There are in total 3,768,311 test observations.
 * the performance criterion is TPR for the value of FPR = 0.0001
