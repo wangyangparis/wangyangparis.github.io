@@ -27,5 +27,5 @@ hess =∂2/𝐿∂𝑥2=𝑝(1−𝑝)(𝛽+𝑦−𝛽𝑦)
 - Frequency Domain - Fast Fourier Transformation
 - OneClassSVM / Isolation Forest /Local Outlier Factor + PCA/Kernel PCA
 - VAE latent space visualization
-<p align="center"><img src="https://github.com/wangyangparis/Airbus-Anomaly-Detection-Project/blob/master/Images/spectrum.png" width="550" ></img></p>
+<p align="center"><img src="https://raw.githubusercontent.com/wangyangparis/AirbusAnomalyDetectionProject/master/Images/spectrum.png" width="550" ></img></p>
 
