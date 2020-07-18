@@ -1,0 +1,24 @@
+- name: Bayes classifier
+- name: Biais-complexity Trade-off
+- name: Gradient descent
+- name: Overfitting & regularization
+
+- name: Intro supervised learning
+- name: Perceptron
+- name: Logistic regression
+- name: Linear discriminant analysis
+- name: SVM
+- name: AdaBoost
+- name: Neural network
+
+- name: Intro unsupervised learning
+- name: Local Outlier Factor
+- name: K-means
+- name: Expectation-maximization (GMM)
+- name: VAE
+
+- name: Intro reinforcement learning
+- name: Online estimation
+- name: Online control
+- name: SARSA
+- name: Q-learning
