@@ -1246,7 +1246,7 @@ plt.show()
 ![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_54_0.png)
 
 
-<font style="color:Royalblue">
+
 Plus le nombre d'harmoniques est élevé, plus le modèle est complexe avec risque de surapprendissage. Le risque quadratique est optimal avec le nombre d'harmonique très petit. C'est aussi par ce que le 1er harmonique est déjà sur une périocité annuelle.
 
 
@@ -1780,7 +1780,7 @@ plt.show()
 ![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_65_0.png)
 
 
-<font style="color:Royalblue">
+
 On voit sur le graphe que cette serie temporelle est stationnaire.
 On peut utiliser le modèle y<sub>t</sub> = a<sub>1</sub>y<sub>t-1</sub> + ϵ<sub>t</sub> avec d=0. 
     
@@ -1832,7 +1832,7 @@ plot_acf(df_paquets['bytes'], lags=40)
 ![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_69_1.png)
 
 
-<font style="color:Royalblue">
+
 Nous pouvons voir qu'il existe une corrélation positive avec les 21 premiers lags, et le permiers 4 lags sont au dessus de 0.2.
  
 Un bon point de départ pour le paramètre AR du modèle peut être 4.
@@ -2031,7 +2031,7 @@ plt.plot(bic)
 ![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_80_1.png)
 
 
-<font style="color:Royalblue">
+
 With the best AIC, BIC value : p=1 
 
 
@@ -2062,7 +2062,7 @@ plt.show()
 ![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_82_0.png)
 
 
-<font style="color:Royalblue">
+
 With the best MSE value using forward valitation: p=1 
 
 
@@ -2158,7 +2158,7 @@ qqplot(arima.resid)
 ![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_88_1.png)
 
 
-<font style="color:Royalblue">
+
 Les résidus sont utiles pour vérifier si un modèle a correctement saisi les informations dans les données. Le modèle ARIMA(1,0,0) est plutôt bien cars il donne des résidus avec les propriétés suivantes:
 
 * Les résidus ne sont pas corrélés: il ne reste plus d'informations dans les résidus qui devraient être utilisées dans le calcul des prévisions.
@@ -2327,7 +2327,7 @@ tsa.plot_acf(df3)
 ![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_97_0.png)
 
 
-<font style="color:Royalblue">
+
 L'autorrelation partielle est significative jusqu'à environ un ordre de 11. 
 
 
@@ -2375,7 +2375,7 @@ plt.plot(bic)
 ![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_101_1.png)
 
 
-<font style="color:Royalblue">
+
 Le meilleur p=2.
 
 
@@ -2515,7 +2515,7 @@ plt.show()
 ![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_107_0.png)
 
 
-<font style="color:Royalblue">
+
 Les résidus sont distribués selon une loi normale. Les résidus ne sont pas autocorrélés. Le modèle ARMA(2,0) est satisfaisant.
 
 14. Tracez le périodogramme ; superposez le à la densité spectrale du modèle estimé à la question
