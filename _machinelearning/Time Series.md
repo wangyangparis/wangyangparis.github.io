@@ -1,7 +1,7 @@
 ---
 layout: maths
 name: Time Series Analysis
-category: Supervised learning
+category: Machine Learning
 ---
 
 # Time Series Analysis
