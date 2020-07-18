@@ -22,3 +22,6 @@
 - name: Online control
 - name: SARSA
 - name: Q-learning
+
+- name: OLS Lasso
+
