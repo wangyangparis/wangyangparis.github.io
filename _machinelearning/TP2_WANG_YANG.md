@@ -211,7 +211,11 @@ data.head()
 <p>5 rows × 211 columns</p>
 </div>
 
+![png](https://github.com/wangyangparis/wangyangparis.github.io/blob/master/_machinelearning/output_12_3.png)
 
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/output_12_3.png)
+
+![png](/output_13_1.png)
 
 * le nombre de variables explicatives est 211 et le nombre d’observations est 1.
 
