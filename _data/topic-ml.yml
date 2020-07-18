@@ -24,9 +24,9 @@
 - name: Q-learning
 
 - name: OLS Lasso
-- name: KNN
 - name: Time Series Analysis
 - name: Large scale kernel method
 - name: NLP - Clustering of ENRON emails  with BERT embedding 
 - name: KNN analysis
+- name: KNN
 

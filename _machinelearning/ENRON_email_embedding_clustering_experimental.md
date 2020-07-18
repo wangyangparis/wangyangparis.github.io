@@ -6,6 +6,8 @@ category: Machine Learning
 
 # Clustering of ENRON emails  with BERT embedding 
 
+- Yang WANG
+
 ## Introduction
 
 ### History

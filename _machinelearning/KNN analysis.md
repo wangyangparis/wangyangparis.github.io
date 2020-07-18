@@ -7,6 +7,8 @@ category: Machine Learning
 
 # KNN 11/27/2019
 
+- Yang WANG
+
 ### Imports
 
 
