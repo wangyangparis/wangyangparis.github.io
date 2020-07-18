@@ -2,10 +2,10 @@
 ---
 layout: maths
 name: KNN
-category: Supervised learning
+category: Machine Learning
 ---
 
-# TP2: KNN 11/27/2019
+# KNN 11/27/2019
 
 ### Imports
 

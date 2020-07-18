@@ -288,7 +288,7 @@ plt.show()
 ![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/kernel/output_17_0.png)
 
 
-<font style="color:Royalblue">
+
 
 La version "rapide" ne semble plus rapide que pour les faibles valeurs de k, tandis que la version "lente" semble de temps constant peut importe la valeur de k.
 
@@ -350,7 +350,7 @@ plt.show()
 ![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/kernel/output_19_0.png)
 
 
-<font style="color:Royalblue">
+
     
 A partir de k=125, la version "rapide" deviens beaucoup moins efficace, cette version est plus adaptée aux matrices sparce avec un $k << min(n,m)$, car il ne retourne qu'un ndarray de valeurs singulières de taille (k,). 
 
@@ -498,7 +498,7 @@ plt.bar(range(3),(timing_linear,timing_RKF,timing_kernel))
 ![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/kernel/output_26_4.png)
 
 
-<font style="color:Royalblue">
+
 En temps comme en précision, cette méthode RKF s'inscrit entre les deux considérées à la question 1 : elle est plus lente mais plus précise que la méthode sans noyau, et plus rapide mais moins précise que la méthode avec noyau.
 
 ## Question 6
@@ -634,7 +634,7 @@ plt.bar(range(4),(timing_linear,timing_nystrom,timing_RKF,timing_kernel))
 ![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/kernel/output_33_4.png)
 
 
-<font style="color:Royalblue">
+
     
 La méthode de l'approximation de Nyström semble efficace puisqu'elle est plus rapide que RKF tout en étant plus efficace que celle-ci. Elle atteint une précision comparable à celle de la méthode à noyau.
    
@@ -723,7 +723,7 @@ plt.show()
 ![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/kernel/output_38_0.png)
 
 
-<font style="color:Royalblue">
+
     
 - Accuracy:
 
@@ -894,7 +894,7 @@ plt.show()
 ![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/kernel/output_43_0.png)
 
 
-<font style="color:Royalblue">
+
 
 - Time:
 
@@ -918,7 +918,7 @@ plt.show()
 
 
 # Conclusion
-<font style="color:Royalblue">
+
 
 \
     

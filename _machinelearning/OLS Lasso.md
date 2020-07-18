@@ -1,7 +1,7 @@
 ---
 layout: maths
 name: OLS Lasso
-category: Supervised learning
+category: Statistics
 ---
 
 
