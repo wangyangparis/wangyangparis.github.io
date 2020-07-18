@@ -249,10 +249,10 @@ plt.show()
 ```
 
 
-![png](output_13_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_13_0.png)
 
 
-<font style="color:Royalblue"> 
+
 Il y a une périodité annuelle(sans doute lié avec le pic d'épidemie de la grippe en hiver). Cependant, le pic est moins prononcée pour 2014.
 
 
@@ -278,10 +278,10 @@ plt.title("Histogramme de IAS Brut")
 
 
 
-![png](output_16_1.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_16_1.png)
 
 
-<font style="color:Royalblue"> 
+
 Les pics avec grandes valeurs IAS sont de fréquences très faibles. Les valeurs de IAS sont plus souvent proches de 0. 
 
 4. Reprenez les questions précédentes après tranformations des observations par le logarithme naturel.
@@ -298,7 +298,7 @@ plt.show()
 ```
 
 
-![png](output_19_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_19_0.png)
 
 
 
@@ -314,10 +314,10 @@ plt.show()
 ```
 
 
-![png](output_20_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_20_0.png)
 
 
-<font style="color:Royalblue"> 
+
 Un axe logarithmique comprime l'échelle de manière non linéaire,les grands valeurs de IAS sont comprimés, rapprochés de 1, en revanche les valeurs inférieurs à 1 sont dilatés et  renvoyés vers l'infini négatif.
     
 Cela signifie que des bacs de largeur variable doivent être utilisés pour les histogrammes. Ici on utilise toujours des bacs de largeur fix, ce qui permets de raprocher la 'longue queue à droite' vers 1 afin de mieux visualiser.
@@ -365,10 +365,10 @@ plt.show()
 ```
 
 
-![png](output_23_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_23_0.png)
 
 
-<font style="color:Royalblue"> 
+
 Le périodogramme est une estimation de la densité spectrale d'un signal. Les pics sur le périodogramme montres les fréquences les plus importantes/dense. Cela corresponds avec les périodicités/saisonnalités les plus significatives.  
 
 
@@ -388,10 +388,10 @@ plt.show()
 ```
 
 
-![png](output_25_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_25_0.png)
 
 
-<font style="color:Royalblue"> 
+
 Le permier pic corresponds à la fréquence de 1/365.
 
 6. Pour supprimer une tendance périodique de période T dans un signal (xt)t∈Z il suffit d’appliquer
@@ -417,7 +417,7 @@ plt.show()
 ```
 
 
-![png](output_28_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_28_0.png)
 
 
 
@@ -453,10 +453,10 @@ plt.show()
 ```
 
 
-![png](output_29_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_29_0.png)
 
 
-<font style="color:Royalblue"> 
+
 Cette méthode a fait disparaitre le pic du périodogramme sur 1/365.
 Le plus grand pic maintenant corresponds aux Fréquence 1/3.5, 3/7,1/7.
 
@@ -719,7 +719,7 @@ plt.plot(X['cos5'], alpha=0.3)
 
 
 
-![png](output_35_1.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_35_1.png)
 
 
 
@@ -1030,10 +1030,10 @@ plt.legend()
 
 
 
-![png](output_42_1.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_42_1.png)
 
 
-<font style="color:Royalblue"> 
+
 
 Le plus grand poids (-5.48213297e+02) est sur l'harmonique blue cos(2*pi/365) : périodicité annuelle. C'est l'harmonique la plus importante, cela corrésponds tout à fait avec la question 5 et l'analyse sur la périodogram.
 
@@ -1057,7 +1057,7 @@ plt.show()
 ```
 
 
-![png](output_45_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_45_0.png)
 
 
 Donnez le risque quadratique de la prédiction et tracez les résidus pour la période prédite.
@@ -1082,10 +1082,10 @@ plt.legend()
 
 
 
-![png](output_47_1.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_47_1.png)
 
 
-<font style="color:Royalblue"> 
+
 Avec 10 harmoniques(features), le modèle prédicte assez bien.
 
 
@@ -1128,10 +1128,10 @@ plt.show()
 ```
 
 
-![png](output_49_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_49_0.png)
 
 
-<font style="color:Royalblue"> 
+
 Avec large nombre de harmoniques(features), 500 par example, le modèle rencontre le problème de 'overfitting'/surapprendissage. Le risque empirique dimimue alors que le risque de généralisation augemente. Ce problème est particulièrement grave ici puisque il y a des valeurs extremes.
 
 
@@ -1176,10 +1176,10 @@ plt.show()
 ```
 
 
-![png](output_51_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_51_0.png)
 
 
-<font style="color:Royalblue"> 
+
 Un essaie avec données logarithmisés. On obtient moins de surapprendissage. 
 
 
@@ -1243,7 +1243,7 @@ plt.show()
 ```
 
 
-![png](output_54_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_54_0.png)
 
 
 <font style="color:Royalblue">
@@ -1777,7 +1777,7 @@ plt.show()
 ```
 
 
-![png](output_65_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_65_0.png)
 
 
 <font style="color:Royalblue">
@@ -1795,7 +1795,7 @@ plt.show()
 ```
 
 
-![png](output_67_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_67_0.png)
 
 
 
@@ -1812,7 +1812,7 @@ autocorrelation_plot(df_paquets['bytes'])
 
 
 
-![png](output_68_1.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_68_1.png)
 
 
 
@@ -1824,12 +1824,12 @@ plot_acf(df_paquets['bytes'], lags=40)
 
 
 
-![png](output_69_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_69_0.png)
 
 
 
 
-![png](output_69_1.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_69_1.png)
 
 
 <font style="color:Royalblue">
@@ -1921,7 +1921,7 @@ print(arima.resid.describe())
 ```
 
 
-![png](output_74_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_74_0.png)
 
 
     count    5.010000e+02
@@ -1949,7 +1949,7 @@ plt.show()
 ```
 
 
-![png](output_75_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_75_0.png)
 
 
 Le critères d’information AIC et BIC sont normalement implémentés dans le logiciel et sont donnés
@@ -2028,7 +2028,7 @@ plt.plot(bic)
 
 
 
-![png](output_80_1.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_80_1.png)
 
 
 <font style="color:Royalblue">
@@ -2059,7 +2059,7 @@ plt.show()
 ```
 
 
-![png](output_82_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_82_0.png)
 
 
 <font style="color:Royalblue">
@@ -2079,7 +2079,7 @@ plt.show()
 ```
 
 
-![png](output_84_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_84_0.png)
 
 
 
@@ -2090,12 +2090,12 @@ plot_acf(arima.resid, lags = 100)
 
 
 
-![png](output_85_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_85_0.png)
 
 
 
 
-![png](output_85_1.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_85_1.png)
 
 
 
@@ -2138,7 +2138,7 @@ plt.show()
 ```
 
 
-![png](output_87_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_87_0.png)
 
 
 
@@ -2150,12 +2150,12 @@ qqplot(arima.resid)
 
 
 
-![png](output_88_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_88_0.png)
 
 
 
 
-![png](output_88_1.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_88_1.png)
 
 
 <font style="color:Royalblue">
@@ -2239,7 +2239,7 @@ plt.plot(df3)
 
 
 
-![png](output_93_1.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_93_1.png)
 
 
 
@@ -2324,7 +2324,7 @@ tsa.plot_acf(df3)
 ```
 
 
-![png](output_97_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_97_0.png)
 
 
 <font style="color:Royalblue">
@@ -2338,12 +2338,12 @@ tsa.plot_pacf(df3)
 
 
 
-![png](output_99_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_99_0.png)
 
 
 
 
-![png](output_99_1.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_99_1.png)
 
 
 13. En se basant sur la question précédente, choisissez l’ordre du processus auto-régressive AR(p).
@@ -2372,7 +2372,7 @@ plt.plot(bic)
 
 
 
-![png](output_101_1.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_101_1.png)
 
 
 <font style="color:Royalblue">
@@ -2461,7 +2461,7 @@ print(arma3.resid.describe())
 ```
 
 
-![png](output_105_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_105_0.png)
 
 
     count    780.000000
@@ -2483,12 +2483,12 @@ plot_acf(arma3.resid, lags=100)
 
 
 
-![png](output_106_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_106_0.png)
 
 
 
 
-![png](output_106_1.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_106_1.png)
 
 
 
@@ -2512,7 +2512,7 @@ plt.show()
 ```
 
 
-![png](output_107_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_107_0.png)
 
 
 <font style="color:Royalblue">
@@ -2545,7 +2545,7 @@ plt.title('la densité spectrale du modèle estimé à la question précé
 
 
 
-![png](output_110_1.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_110_1.png)
 
 
 
@@ -2595,5 +2595,5 @@ plt.show()
 ```
 
 
-![png](output_111_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/TimeSeries/output_111_0.png)
 

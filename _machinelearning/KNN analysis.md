@@ -388,7 +388,7 @@ plt.show()
 ```
 
 
-![png](output_20_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/KNN/output_20_0.png)
 
 
 ## - La méthode des k-plus proches voisins -
@@ -528,7 +528,7 @@ frontiere_new(f, X1, y1, w=None, step=50, alpha_choice=1,
 ```
 
 
-![png](output_31_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/KNN/output_31_0.png)
 
 
 
@@ -543,7 +543,7 @@ frontiere_new(f, X2, y2, w=None, step=50, alpha_choice=1, colorbar=True,
 ```
 
 
-![png](output_32_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/KNN/output_32_0.png)
 
 
 
@@ -558,7 +558,7 @@ frontiere_new(f, X3, y3, w=None, step=50, alpha_choice=1, colorbar=True,
 ```
 
 
-![png](output_33_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/KNN/output_33_0.png)
 
 
 
@@ -575,7 +575,7 @@ frontiere_new(f, X4, y4, w=None, step=50, alpha_choice=1, colorbar=True,
 ```
 
 
-![png](output_34_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/KNN/output_34_0.png)
 
 
 6) Pour les observations d’indice pair du jeu de données #2, faites varier le nombre k de voisins pris en compte : k = 1,2,...,n. Que devient la méthode dans le cas extrême où k = 1? k = n? Afficher ces cas sur les données étudiées en utilisant la fonction frontiere_new et présentez les dans une forme facilement lisible. Dans quels cas la frontière est-elle complexe ? simple ?
@@ -654,7 +654,7 @@ frontiere_new(f, X=X2, y=y2)
 ```
 
 
-![png](output_37_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/KNN/output_37_0.png)
 
 
 Q7 Une variante possible très utilisée consiste à pondérer les poids du $j$-ème voisin selon $e^{−d^2_j/h}$ ($h$ contrôlant le niveau de pondération) : cela revient à remplacer l’Équation (2) par :
@@ -756,7 +756,7 @@ frontiere_new(f, X=X2[::2], y=y2[::2])
 ```
 
 
-![png](output_39_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/KNN/output_39_0.png)
 
 
 <font style="color:Royalblue"> 
@@ -812,7 +812,7 @@ ErrorCurve.plot(curve)
 ```
 
 
-![png](output_46_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/KNN/output_46_0.png)
 
 
 <font style="color:Royalblue"> 
@@ -831,7 +831,7 @@ ErrorCurve.plot(curve)
 ```
 
 
-![png](output_49_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/KNN/output_49_0.png)
 
 
 
@@ -844,7 +844,7 @@ ErrorCurve.plot(curve)
 ```
 
 
-![png](output_50_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/KNN/output_50_0.png)
 
 
 
@@ -857,7 +857,7 @@ ErrorCurve.plot(curve)
 ```
 
 
-![png](output_51_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/KNN/output_51_0.png)
 
 
 
@@ -870,7 +870,7 @@ ErrorCurve.plot(curve)
 ```
 
 
-![png](output_52_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/KNN/output_52_0.png)
 
 
 <font style="color:Royalblue"> 
@@ -925,7 +925,7 @@ plt.show()
 
 
 
-![png](output_58_2.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/KNN/output_58_2.png)
 
 
 
@@ -1053,7 +1053,7 @@ for index, (image, label) in enumerate(images_and_labels[:4]):
 ```
 
 
-![png](output_64_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/KNN/output_64_0.png)
 
 
 
@@ -1065,7 +1065,7 @@ for index, (image, label) in enumerate(images_and_labels[:100]):
 ```
 
 
-![png](output_65_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/KNN/output_65_0.png)
 
 
 
@@ -1130,7 +1130,7 @@ plt.title('Confusion_matrix', y=1.05, size=15)
 
 
 
-![png](output_68_1.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/KNN/output_68_1.png)
 
 
 <font style="color:Royalblue"> 
@@ -1147,7 +1147,7 @@ loo.plot()
 ```
 
 
-![png](output_71_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/KNN/output_71_0.png)
 
 
 <font style="color:Royalblue"> 
@@ -1382,7 +1382,7 @@ frontiere_new(f, X1, y1, w=None, step=50, alpha_choice=1, colorbar=True,samples=
 ```
 
 
-![png](output_92_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/KNN/output_92_0.png)
 
 
 
@@ -1425,7 +1425,7 @@ frontiere_new(f, X1, y1, w=None, step=50, alpha_choice=1,
 ```
 
 
-![png](output_95_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/KNN/output_95_0.png)
 
 
 <span style="color:Royalblue"> * LDA a trouver un hyperplan qui maximise la distance vers mu+ et mu-, en tenant consideration des variances de chaque classe.
@@ -1449,7 +1449,7 @@ frontiere_new(f, X1, y1, w=None, step=50, alpha_choice=1,
 ```
 
 
-![png](output_98_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/KNN/output_98_0.png)
 
 
 <span style="color:Royalblue"> LDA est un classifier linéaire, il marche très bien sur le jeux de données linéairement séparable.
@@ -1471,7 +1471,7 @@ frontiere_new(f, X3, y3, w=None, step=50, alpha_choice=1,
 ```
 
 
-![png](output_100_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/KNN/output_100_0.png)
 
 
 <span style="color:Royalblue"> LDA est un classifier linéaire, il marche pas très bien sur le jeux de données #3 qui n'est pas linéairement séparable, il faudra envisager des méthodes non linéaires ou kernel tricks. 
@@ -1593,7 +1593,7 @@ frontiere_new(f, X1, y1, w=None, step=50, alpha_choice=1,
 ```
 
 
-![png](output_118_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/KNN/output_118_0.png)
 
 
 
@@ -1606,7 +1606,7 @@ frontiere_new(f, X1, y1, w=None, step=50, alpha_choice=1,
 ```
 
 
-![png](output_119_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/KNN/output_119_0.png)
 
 
 24) Appliquez la classification par régression logistique à des données issues de la base digits. Comme précédemment, coupez l’échantillon en deux parties de même taille et utilisez la première partie pour l’apprentissage et la deuxième pour tester. Indiquez le taux d’erreur.
@@ -1673,5 +1673,5 @@ plt.title('Confusion_matrix', y=1.05, size=15)
 
 
 
-![png](output_122_1.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/KNN/output_122_1.png)
 
