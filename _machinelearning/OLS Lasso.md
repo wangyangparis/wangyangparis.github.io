@@ -212,7 +212,6 @@ data.head()
 </div>
 
 
-![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/OLS/output_13_1.png)
 
 * le nombre de variables explicatives est 211 et le nombre d’observations est 1.
 
