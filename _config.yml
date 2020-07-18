@@ -219,12 +219,12 @@ plugins:
   
   
   # Site
-title:          Savoga
+title:          Algorithmi
 bio:            'Just a simple Jekyll theme'
 description:    'Welcome on my website!'
 picture:        'assets/img/me.png'
 locale:         en_US
-url:            https://savoga.github.io
+url:            https://wangyangparis.github.io
 
 collections:
   stats:
