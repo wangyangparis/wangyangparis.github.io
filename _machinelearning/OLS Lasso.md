@@ -211,11 +211,8 @@ data.head()
 <p>5 rows × 211 columns</p>
 </div>
 
-![png](https://github.com/wangyangparis/wangyangparis.github.io/blob/master/_machinelearning/output_12_3.png)
 
-![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/output_12_3.png)
-
-![png](/output_13_1.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/output_13_1.png)
 
 * le nombre de variables explicatives est 211 et le nombre d’observations est 1.
 
@@ -330,7 +327,7 @@ plt.show()
 
 
 
-![png](output_12_3.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/output_12_3.png)
 
 
 
@@ -346,7 +343,7 @@ sns.pairplot(data[index],diag_kind='kde')
 
 
 
-![png](output_13_1.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/output_13_1.png)
 
 
 * Les variables explicatives me semble sous distribution normal. 
@@ -427,7 +424,7 @@ sns.pairplot(Xytrain[index], diag_kind='kde')
 
 
 
-![png](output_20_1.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/output_20_1.png)
 
 
 #### 4. Donner la matrice de covariance calculée sur Xtrain. Tracer le graphe de la décroissance des valeurs propres de la matrice de covariance (ou de corrélation). Expliquer pourquoi il est légitime de ne garder que les premières variables de l’ACP. On gardera 60 variables dans la suite
@@ -550,7 +547,7 @@ plt.scatter(range(len(s)),s)
 
 
 
-![png](output_25_1.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/output_25_1.png)
 
 
 * On voit bien sur le graphique que lorsque nous somme dans la base des vecteurs propres de $X^TX$, seulement 60 des valeurs propres de la matrice de corrélation ne sont pas nulles. C'est à dire que la dimension utile de $X$ est réduite à 60. La réduction de dimension va grandement simplifier notre calcul.
@@ -607,7 +604,7 @@ sns.pairplot(Xypca.iloc[:,0:5], diag_kind='kde')
 
 
 
-![png](output_30_2.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/output_30_2.png)
 
 
 
@@ -828,7 +825,7 @@ plt.scatter(range(reg_pca.coef_.shape[0]),reg_pca.coef_)
 
 
 
-![png](output_33_1.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/output_33_1.png)
 
 
 PCA a conçu 60 features qui contiennent maximum d'information avec une variance 
@@ -924,7 +921,7 @@ plt.scatter(range(reg.coef_.shape[0]), reg.coef_)
 
 
 
-![png](output_37_1.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/output_37_1.png)
 
 
 Sans PCA, on a beaucoup de bruit, le modele doit faire des coefficients très grandes à l'ordre de  10puissance 15 pour converger.  Les
@@ -972,7 +969,7 @@ plt.scatter(range(reg6.coef_.shape[0]),reg6.coef_)
 
 
 
-![png](output_42_1.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/output_42_1.png)
 
 
 #### 7. Pour les 2 méthodes (OLS et PCA before OLS) : Tracer les résidus de la prédiction sur l’échantillon test. Tracer leur densité (on pourra par exemple utiliser un histogramme). Calculer le coefficient de détermination sur l’échantillon test. Calculer le risque de prédiction sur l’échantillon test.
@@ -1002,7 +999,7 @@ plt.scatter(range(len(residusPCA)), residusPCA)
 
 
 
-![png](output_45_1.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/output_45_1.png)
 
 
 
@@ -1025,7 +1022,7 @@ plt.hist(residusPCA)
 
 
 
-![png](output_46_1.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/output_46_1.png)
 
 
 
@@ -1044,7 +1041,7 @@ sns.distplot(residusPCA, bins=20, kde=True)
 
 
 
-![png](output_47_1.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/output_47_1.png)
 
 
 
@@ -1264,7 +1261,7 @@ plt.plot(t_stat_history9[0:len(Xtrain.columns)-1],)
 
 
 
-![png](output_56_1.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/output_56_1.png)
 
 
 
@@ -1282,7 +1279,7 @@ plt.plot(t_stat_history9[len(Xtrain.columns):2*len(Xtrain.columns)-1])
 
 
 
-![png](output_57_1.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/output_57_1.png)
 
 
 * T-Stat for the seconde round, we can see the highest peak in the first round has disappered
@@ -1302,7 +1299,7 @@ plt.plot(t_stat_history9[len(Xtrain.columns)*2:3*len(Xtrain.columns)-1])
 
 
 
-![png](output_59_1.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/output_59_1.png)
 
 
 * we can see the highest peak in the 2nd round has disappered, and after 2 features selected, the rest of the features left have smaller T-stat and are more homogenes.
@@ -1325,7 +1322,7 @@ plt.axhline(y=0.1, color='g', linestyle='-')
 
 
 
-![png](output_61_1.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/output_61_1.png)
 
 
 With threshold pvalue = 0.1, the Forward selected 14 features, the number varies each time, but always around 10. The value is not always ascending, this is normal, because each step we recalcul all.
@@ -1640,7 +1637,7 @@ print("The best regulation hyperparameter of RIDGE trained by cross Validation i
 ```
 
 
-![png](output_75_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/output_75_0.png)
 
 
     The best regulation hyperparameter of RIDGE trained by cross Validation is :  85.42770854271357
@@ -1661,7 +1658,7 @@ plt.show()
 ```
 
 
-![png](output_76_0.png)
+![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/output_76_0.png)
 
 
 13. A l’aide de la fonction lassoCV de sklearn, choisir le paramètre de régularisation du LASSO.
