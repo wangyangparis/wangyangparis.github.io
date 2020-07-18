@@ -1,3 +1,8 @@
+---
+layout: maths
+name: Time Series Analysis
+category: Supervised learning
+---
 
 # Time Series Analysis
 

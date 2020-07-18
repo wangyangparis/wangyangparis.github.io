@@ -24,4 +24,6 @@
 - name: Q-learning
 
 - name: OLS Lasso
+- name: KNN
+- name: Time Series Analysis
 

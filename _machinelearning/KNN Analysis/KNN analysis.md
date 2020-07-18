@@ -1,4 +1,10 @@
 
+---
+layout: maths
+name: KNN
+category: Supervised learning
+---
+
 # TP2: KNN 11/27/2019
 
 ### Imports
