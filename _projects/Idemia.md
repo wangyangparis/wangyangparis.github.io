@@ -1,8 +1,8 @@
 ---
 title: "Fusion of algorithms for face recognition"
-excerpt: "Data Challenge IDEMIA-MS Big Data (ranked 1st among 57 data scientists)
-* build a fusion of algorithms in order to construct the best suited solution for comparison of a pair of images
-* total 9,800,713 training observations. There are in total 3,768,311 test observations.
+excerpt: "Data Challenge IDEMIA-MS Big Data (ranked 1st among 57 data scientists) \\
+* build a fusion of algorithms in order to construct the best suited solution for comparison of a pair of images \\
+* total 9,800,713 training observations. There are in total 3,768,311 test observations. \n
 * the performance criterion is TPR for the value of FPR = 0.0001
 * LightGBoost
 * Custom Loss Function - In order to penalise False Positive, I put a penalty Beta on the FP, calculating the gradient as:
