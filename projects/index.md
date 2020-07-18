@@ -39,7 +39,7 @@ hess =∂2/𝐿∂𝑥2=𝑝(1−𝑝)(𝛽+𝑦−𝛽𝑦)
 # [ Project: device-geolocalisation](https://wangyangparis.github.io/IoT-geolocation/) 
 - A company (Sigfox) that produces connected device needs to locate the position of their device. 
 - Prediction is based on the message reception information.
-<p align="left"><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ffr.wikipedia.org%2Fwiki%2FSigfox&psig=AOvVaw24F_MfqMEfWMOA9-6Yyt7H&ust=1595095559357000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPCCu5bw1OoCFQAAAAAdAAAAABAD" width="250" ></img></p>
+<p align="left"><img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Ffr.wikipedia.org%2Fwiki%2FSigfox&psig=AOvVaw0fNM_T6mYMeLgVsVqGxUUm&ust=1595095745849000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCJiG8-zw1OoCFQAAAAAdAAAAABAD" width="250" ></img></p>
 
 
 # [ Project: Scala Spark ML Project](https://github.com/wangyangparis/spark_project_kickstarter_2019_2020) 
