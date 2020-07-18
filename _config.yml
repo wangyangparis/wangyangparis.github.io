@@ -60,6 +60,9 @@ paths:
   archive : # "/archive.html" (default)
   rss     : # "/feed.xml" (default)
 
+sass:
+  sass_dir: _sass
+  style: compressed
 
 ## => Post
 ##############################
@@ -199,7 +202,7 @@ defaults:
       path: ""
       type: posts
     values:
-      layout: article
+      layout: index
       sharing: true
       license: true
       aside:
