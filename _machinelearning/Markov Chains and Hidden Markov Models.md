@@ -146,7 +146,7 @@ bi_eng[0, :]
 ![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/HMM/output_10_1.png)
 
 
-<font color="blue"> Les probabilités de la première ligne correspondent aux probabilitées de transitions en partant de l'état initial. La première valeur et la dernière valeur valent 0 qui signifie que l'état initial va forcement à un autre état sauf à l'état final. En anglais, on voit qu'il est très probable que les mots commencent par 't','a','w'. Alors qu'en français, il est plus probable que les mots commencent par 'd','i','p'.
+ Les probabilités de la première ligne correspondent aux probabilitées de transitions en partant de l'état initial. La première valeur et la dernière valeur valent 0 qui signifie que l'état initial va forcement à un autre état sauf à l'état final. En anglais, on voit qu'il est très probable que les mots commencent par 't','a','w'. Alors qu'en français, il est plus probable que les mots commencent par 'd','i','p'.
 
 
 ```python
@@ -176,7 +176,7 @@ bi_eng[:, -1]
 ![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/HMM/output_12_1.png)
 
 
-<font color="blue">
+
     
 La dernière colonne correspondent aux probabilitées de transitions en partant de chaque état vers état final qui est un état absorbant, c'est ici les probabilitées de chaque lettre avec laquelle le mot se termine . En anglais, on voit que quand on a les lettres 'd','s','y', il est très probable que ce soit la fin du mot. 
 
@@ -252,7 +252,7 @@ for i in range(len(bi_eng)):
     27    
 
 
-<font color="blue"> On voit beaucoup de pattern dans l'anglais ici tels que : th , an , co , in, etc. 
+ On voit beaucoup de pattern dans l'anglais ici tels que : th , an , co , in, etc. 
     
 Le début de mot le plus fréquent est 't', comme 'tea'. 
 
@@ -294,7 +294,7 @@ for i in range(len(bi_fr)):
     27    
 
 
-<font color="blue"> On voit beaucoup de pattern dans le français ici tels que : br, fi, me, de, etc. 
+ On voit beaucoup de pattern dans le français ici tels que : br, fi, me, de, etc. 
 
 ## 1.2b Générer un mot
 
@@ -335,7 +335,7 @@ plt.show()
 ![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/HMM/output_24_1.png)
 
 
-<font color="blue">  La fonction cumulative de distribution permet de savoir quel chiffre tirer par la suite. D'abord on tire de manière aléatoire uniforme, puis on compare avec la distribution cumulative. 
+  La fonction cumulative de distribution permet de savoir quel chiffre tirer par la suite. D'abord on tire de manière aléatoire uniforme, puis on compare avec la distribution cumulative. 
 
 *Utiliser cette fonction pour écrire la fonction genere_state_seq qui génère une séquence d’états jusqu’à aboutir à l’état final (28).*
 
@@ -399,7 +399,7 @@ for i in range(25):
     tentremen 
 
 
-<font color="blue"> Remarque sur les lettres seules: 
+ Remarque sur les lettres seules: 
     
 Les mots anglais termininent souvent avec 's','y','d','f', si depuis l'état initial on tombe sur un 's', il y a grande chance que cela termine tout de suite avec l'état final.
 
@@ -428,7 +428,7 @@ def modify_mat_dic(bi_eng):
     return bi_eng
 ```
 
-<font color="blue"> On crée la probabilié que un état final de mot transit vers l'état initial du mot (générer le mot suivant), ainsi la probabilié que un état final de mot transit vers la fin de phrase, cette probabilité contrôle la longeur moyenne des phrases.
+ On crée la probabilié que un état final de mot transit vers l'état initial du mot (générer le mot suivant), ainsi la probabilié que un état final de mot transit vers la fin de phrase, cette probabilité contrôle la longeur moyenne des phrases.
 
 
 ```python
@@ -819,7 +819,7 @@ plt.imshow(B0.T)
 
 ### II 2.1 *A quoi correspondent les zéros de la matrice B ? et ceux de la matrice A et du vecteur π?*
 
-<font color="blue">
+
     
 - Les 0 de la matrice B correspondent aux probabilités nulles d'observation dans un état donné.Par example, il n'y a pas de sympol 2 dans l'état 1 (fond de l'image).
 
@@ -881,7 +881,7 @@ plt.show()
 ![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/HMM/output_73_1.png)
 
 
-<font color="blue">  La fonction cumulative de distribution permet de savoir quel état tirer par la suite. D'abord on tire de manière aléatoire uniforme, puis on compare avec la distribution cumulative. 
+  La fonction cumulative de distribution permet de savoir quel état tirer par la suite. D'abord on tire de manière aléatoire uniforme, puis on compare avec la distribution cumulative. 
 
 ### II.2.3 *Générer une séquence d’observations suivant le modèle de Markov Caché du chiffre 0. On commencera par générer une séquence d’états suivant ce modèle à l’aide de la fonction etat_suivant. Puis on générera la séquence d’observations par le même procédé.*
 
@@ -1217,5 +1217,5 @@ plt.imshow(im, interpolation='none', aspect='auto')
 ![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/HMM/output_95_1.png)
 
 
-<font color="blue">
+
 Dans les fichiers test, les séquences sont généralement bien classés dans chaque classe, sauf 2 cas que j'affiche ici. Il est vrai que ces 2 chiffres sont un peu déformés.
