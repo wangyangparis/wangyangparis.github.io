@@ -10,6 +10,6 @@ grad =∂𝐿/∂𝑥=∂𝐿/∂𝑝*∂𝑝/∂𝑥=𝑝(𝛽+𝑦−𝛽𝑦)
 and hessien as:
 hess =∂2/𝐿∂𝑥2=𝑝(1−𝑝)(𝛽+𝑦−𝛽𝑦)"
 git_url: "https://wangyangparis.github.io/DataChallenge2020/ "
-image: "https://upload.wikimedia.org/wikipedia/commons/2/2e/IDEMIA_Logo.jpg "
+image: "https://raw.githubusercontent.com/wangyangparis/Data-Challenge-2020/master/Images/idemia.png "
 publish: true
 ---
