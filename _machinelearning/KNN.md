@@ -1,6 +1,6 @@
 ---
 layout: maths
-name: KNN
+name: KNN analysis
 category: Machine Learning
 ---
 

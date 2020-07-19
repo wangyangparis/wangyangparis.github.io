@@ -5,7 +5,7 @@ category: Machine Learning
 ---
 
 
-# TP Large Scale Kernel Methods - Scaling Up Kernel SVM via Low-rank Linearization
+# Large Scale Kernel Methods - Scaling Up Kernel SVM via Low-rank Linearization
 
 - Yang WANG
 

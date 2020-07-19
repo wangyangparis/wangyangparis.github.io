@@ -29,4 +29,5 @@
 - name: NLP - Clustering of ENRON emails  with BERT embedding 
 - name: KNN analysis
 - name: KNN
+- name: Markov Chains and Hidden Markov Models
 
