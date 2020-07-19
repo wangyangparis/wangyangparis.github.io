@@ -361,7 +361,7 @@ sigma = 0.1
 X4, y4 = rand_checkers(n1, n2, sigma)
 ```
 
-<font style="color:Royalblue"> 
+
 * rand_bi_gauss renvoie un X de 2 classes qui est tiré au hasard parmi deux lois gausssien différentes, et la dernière colonne qui correspond aux labels -1 ou 1.
 * rand_tri_gauss renvoie un X de 3 classes qui est tiré au hasard parmi trois lois gaussien différentes, et la dernière colonne qui correspond aux labels 1,2 ou 3. 
 * rand_clown renvoie un groupe de point gaussien, et un groupe de point selon x_2 = (x_1)^2.
@@ -400,7 +400,7 @@ plt.show()
 
 3) Proposez une version adaptée de cette méthode pour la régression, i.e., quand les observations y sont à valeurs réelles : Y = R.
 
-<font style="color:Royalblue"> 
+
 Pour la régression on veut une valeur réelles pour la prédiction, on peut utiliser la moyenne des valeurs d'observation y de K plus proches voisins. 
 On peut aussi ajouter des coefficients (en fonction de distances) sur les valeurs d'observation y  pour avoir une moyenne pondérée. eg. Pred = ( Distance * valeur de label )/k
 
@@ -461,7 +461,7 @@ class KNNClassifier_homemade(BaseEstimator, ClassifierMixin):
         return sortedClassCount[0][0]
 ```
 
-<font style="color:Royalblue"> 
+
 Pour le traitement des ex aequo, je calcule les distances totales accumulées de chaque label, s'il y a ex aequo, on choisi celui avec la moindre distance totale.
 
 
@@ -583,7 +583,7 @@ frontiere_new(f, X4, y4, w=None, step=50, alpha_choice=1, colorbar=True,
 
 6) Pour les observations d’indice pair du jeu de données #2, faites varier le nombre k de voisins pris en compte : k = 1,2,...,n. Que devient la méthode dans le cas extrême où k = 1? k = n? Afficher ces cas sur les données étudiées en utilisant la fonction frontiere_new et présentez les dans une forme facilement lisible. Dans quels cas la frontière est-elle complexe ? simple ?
 
-<font style="color:Royalblue"> 
+
 * Plus K est grand, plus la frontière est simple. Quand k = 1, il va faire beaucoup d'enclave. Quand k = n, il n'y plus de frontière cars tous les points sont dans la même class.
 
 
@@ -762,7 +762,7 @@ frontiere_new(f, X=X2[::2], y=y2[::2])
 ![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/KNN/output_39_0.png)
 
 
-<font style="color:Royalblue"> 
+
 * Plus h est grand, plus les voisins proches deviennent important, la classification est influencé par les voisins les plus proches, la frontière devient plus complexe (Elle devient plus lisse par endroit mais a tendance à créer plus d'enclave).
 
 8) Quel est le taux d’erreur sur les mêmes données d’apprentissage (i.e., la proportion d’erreur faite par le classifieur) lorsque k = 1 ? et sur des données de test (les observations d’indice pair) ?
@@ -786,7 +786,7 @@ print("Le taux d'erreur sur des données de test est de:", round(
     Le taux d'erreur sur des données de test est de: 23.33 %
 
 
-<font style="color:Royalblue"> 
+
 Le taux d'erreur sur les mêmes données d’apprentissage est de: 0.0 %. C'est à dire le risque empirique sur les mêmes données d’apprentissage est 0, mais le risque de generalisation est grand. Le model avec k=1 est clairement overfitted, la capacité de généralisation est mauvaise.
 
 9) Pour le jeu de données #4, en utilisant les observations d’indice pair pour l’apprentissage et les ob- servations d’indice impair pour le test, tracez le taux d’erreur en fonction de k pour k = 1, 2, . . . , 50. Vous pourrez utiliser la classe fournie ErrorCurve.
@@ -818,7 +818,7 @@ ErrorCurve.plot(curve)
 ![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/KNN/output_46_0.png)
 
 
-<font style="color:Royalblue"> 
+
 * Quand k est proche de 1, le modèle est overfitted; 
 * quand le k est proche de n, le modèle n'apprends pas des informations sur les données, on a le problème de underfitting.
 
@@ -876,19 +876,19 @@ ErrorCurve.plot(curve)
 ![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/KNN/output_52_0.png)
 
 
-<font style="color:Royalblue"> 
+
 * Quand test data = 100 or 200, quand k est proche de 1, le modèle est overfitted; quand le k est proche de 50, le modèle n'apprends pas des informations sur les données, on a le problème de underfitting.
 * Quand test data = 500 or 1000, on a beacoup de points, c'est à dire ce modèle génératif KNN contient beaucoup d'information. En même temps, comme on a beaucoup de points, même si k = 50, les 50 plus proches voisins sont très proches et regroupés. 50 est petit par rapport 1000 points , il n'y a pas de problème d'underfitting. D'où le très bon performance quand test data = 500 or 1000.
 
 11) A votre avis, quels sont les avantages et les inconvénients de la méthode des plus proches voisins : temps de calcul ? passage à l’échelle ? interprétabilité ?
 
 
-<font style="color:Royalblue"> 
+
 * La méthode des plus proches voisions doit parcourir tout l'espace X, donc la KNN subit le fléau de la dimension, et est particulièrement gourmand en termes de temps de calcul. Le passage à l'échelle est donc complexe. Cependant la KNN est facile à interpréter et efficiente si le nombre de dimensions est relativement faible.
 
 12) Étudiez la base digits de scikit-learn. On pourra se référer à http://scikit-learn.org/stable/ _downloads/plot_digits_classification.py pour le chargement et la manipulation de la base de données. Pour de plus amples informations sur la nature de la classe 'Bunch' (une sous-classe de dictionnaire, on se reportera à la documentation sur la classe 'dict' : http://docs.python.org/ 2/library/stdtypes.html#mapping-types-dict. Décrivez la nature et le format des données (précisément), affichez un exemple. Tracez l’histogramme pour des classes. Coupez l’échantillon en deux parties de même taille et utilisez la première partie pour l’apprentissage et la deuxième pour le test. Appliquez la méthode aux données issues de la base digits pour un choix de k ≥ 1 (e.g., k = 30) et indiquez le taux d’erreur.
 
-<font style="color:Royalblue"> 
+
 * Bunch: 
 Dictionary-like object, the interesting attributes are: ‘data’, the data to learn, ‘images’, the images corresponding to each sample, ‘target’, the classification labels for each sample, ‘target_names’, the meaning of the labels, and ‘DESCR’, the full description of the dataset.
 
@@ -1136,7 +1136,7 @@ plt.title('Confusion_matrix', y=1.05, size=15)
 ![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/KNN/output_68_1.png)
 
 
-<font style="color:Royalblue"> 
+
 * On voit que le classifieur se trompe parfois 1 pour 8, 9. Mais il n'affiche pas le pourcentage.
 
 14) Proposez une méthode pour choisir k et mettez-la en œuvre. Vous pourrez utiliser la classe fournie LOOCurve. En utilisant toutes les données, tracez la courbe du taux d’erreur leave-one-out pour k = 1, 6, 11, 16, 21, 26, 31, 36, 41, 46, 100, 200. Pour plus d’information sur la validation croisée (cross- validation) on peut consulter [HTF09, Chapitre 7.10].
@@ -1153,7 +1153,7 @@ loo.plot()
 ![png](https://raw.githubusercontent.com/wangyangparis/wangyangparis.github.io/master/_machinelearning/assets/KNN/output_71_0.png)
 
 
-<font style="color:Royalblue"> 
+
 avec LOOCV on a trouvé le meilleur k = 6 (k =1 est overfitted).
 
 
@@ -1204,7 +1204,7 @@ param_knnCV
 
 
 
-<font style="color:Royalblue"> 
+
 Avec la méthode de Cross Validation en utilisant GridSearchCV, on a trouvé le meilleur k = 6 . C'est le même résultat que LOOCurve
 
 ### Pour aller plus loin -
