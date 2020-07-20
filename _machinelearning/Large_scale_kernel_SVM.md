@@ -8,6 +8,7 @@ category: Machine Learning
 # Large Scale Kernel Methods - Scaling Up Kernel SVM via Low-rank Linearization
 
 - Yang WANG
+- Emmanuel DOUMARD
 
 
 ## Problèmatique kernel SVM :

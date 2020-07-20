@@ -44,9 +44,9 @@ title: Works on machine learning
 <br>
 
 
-<a class="cleanLinkSource" href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.55.5709&amp;rep=rep1&amp;type=pdf" rel="nofollow">Learning to forget, continual prediction with LSTM - F. A. Gers et al.</a>
+<a class="cleanLinkSource" href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.55.5709&amp;rep=rep1&amp;type=pdf" rel="nofollow">Learning to forget, continual prediction with LSTM </a>  F. A. Gers et al.
 <br>
-<a class="cleanLinkSource" href="https://svn.aksw.org/papers/2015/WSDM_Topic_Evaluation/public.pdf">Exploring the Space of Topic Coherence Measures - Michael Röder et al.</a>
+<a class="cleanLinkSource" href="https://svn.aksw.org/papers/2015/WSDM_Topic_Evaluation/public.pdf">Exploring the Space of Topic Coherence Measures </a> Michael Röder et al.
 <br>
-<a class="cleanLinkSource" href="https://arxiv.org/pdf/1706.03762.pdf">Attention Is All You Need - Google Lab</a>
+<a class="cleanLinkSource" href="https://arxiv.org/pdf/1706.03762.pdf">Attention Is All You Need </a> Google 
 
