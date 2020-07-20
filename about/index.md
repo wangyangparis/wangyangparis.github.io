@@ -5,7 +5,7 @@ title: About me
 
 <p style="text-align:justify">
 My name is Yang, I am a data science enthusiast. My academic background is a mix between
-IT, business, maths and programming.
+IS, maths and business.
 
 <br>
 <br>
