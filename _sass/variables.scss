@@ -3,12 +3,14 @@
 @import url("https://fonts.googleapis.com/css?family=Bree+Serif");
 @import url("https://fonts.googleapis.com/css?family=Alegreya+Sans+SC:900");
 @import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
 
 $font1: Roboto, serif; // not used ?
 $font2: PT Mono; // not used ?
 $title-font   : Lobster, cursive; // titre du site
 $menu-font    : Alegreya Sans SC, sans-serif; // boutons du menu
-$main-font    : Roboto Slab; // texte des articles (old: Roboto Slab, serif --> serif semble être pour la version mobile...)
+$main-font    : Montserrat; // texte des articles (old: Roboto Slab, serif --> serif semble être pour la version mobile...)
+$main-font2    : Roboto Slab;
 
 // Colors
 $blue: #3498db;
@@ -19,9 +21,10 @@ $green: #2ecc71;
 $turko: #1abc9c;
 $purple: #9b59b6;
 $dark-blue: #34495e;
+$green-bio: #209CEE;
 
 $main-color: $white;
-$background-color: $dark-blue;
+$background-color: $green-bio;
 $thrid-color: rgba(52, 152, 219, 0.8);
 
 // Heigths
