@@ -1,7 +1,7 @@
 ---
-title: ". IBM Web Game Wikipedia-Travel-to-Philosophie"
-excerpt: "Non supervised text clustering with interpretability"
-git_url: "https://wangyangparis.github.io/SCBert/Rapport_Projet_Fil_Rouge.pdf"
+title: "Non supervised text clustering with interpretability - IBM"
+excerpt: "Text clustering with probabilitic model and text embedding"
+git_url: "https://github.com/wangyangparis/SCBert/blob/master/Rapport_Projet_Fil_Rouge.pdf"
 image: "https://miro.medium.com/max/9000/1*h0mO4PdZaQKtbwWJW40FKQ.jpeg"
 publish: true
 ---
